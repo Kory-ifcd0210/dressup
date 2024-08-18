@@ -1,0 +1,48 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  }
+
+.logo {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 52pt;
+}
+
+p {
+  font-size: 19pt;
+  margin: 0;
+}
+
+.logo img{
+  width: 60%;
+}
+
+  .example-label {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .example-label a {
+    margin-left: 1rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 25px;
+  }
+
+  button a {
+    color: white;
+    text-decoration: none;
+    font-size: 19pt;
+  }
