@@ -1,0 +1,22 @@
+.card{
+     text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 25px;
+  }
+
+a button{
+     color: white;
+     text-decoration: none;
+}
+
+.mat-stepper-horizontal {
+     margin-top: 8px;
+   }
+
+   ::ng-deep .mat-horizontal-stepper-line {
+     display: none !important;
+   }
+   

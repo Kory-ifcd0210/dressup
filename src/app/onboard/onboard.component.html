@@ -5,9 +5,9 @@
     <p>Descripción de la app</p>
   </div>
 
-  <button mat-flat-button><a routerLink="tutorial">Comencemos</a></button>
+  <button mat-flat-button [routerLink]="['/tutorial']">Comencemos</button>
 
   <div class="example-label">
-    Saltar tutorial <a href="#"> <mat-icon>arrow_circle_right</mat-icon> </a>
+    Saltar tutorial <a href="/home"> <mat-icon>arrow_circle_right</mat-icon> </a>
   </div>
 </section>
