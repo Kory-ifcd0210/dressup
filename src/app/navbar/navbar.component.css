@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 8px 0;
+    background-color: transparent;
+  }
+
+  .nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 8px;
+    width: 48px;
+    height: 48px;
+  }
+
+  mat-icon {
+    font-size: 24px;
+    color: #000;
+  }
+
+  .nav-icon:hover mat-icon {
+    color: #1976d2; 
+  }
